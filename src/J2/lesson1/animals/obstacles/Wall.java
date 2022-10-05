@@ -1,10 +1,10 @@
 package J2.lesson1.animals.obstacles;
-
 import J2.lesson1.animals.Participant.Participant;
 
+//Класс наследования Obstacle подкласса Wall
 public class Wall extends Obstacle {
 
-    private int height;
+    private int height; //метод height(высота стены)
 
     public Wall(int height) {
         this.height = height;

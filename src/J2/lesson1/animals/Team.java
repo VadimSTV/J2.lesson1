@@ -20,7 +20,7 @@ public class Team {
         this.participants = participantsGiven;
     }
 
-    public void getTeamInfo() {
+    public void getTeamInfo() {       //Выводим информацию о команде
         System.out.println("Команда: " + this.name );
         for (Participant participant : participants) {
             if (participant instanceof Dog) {

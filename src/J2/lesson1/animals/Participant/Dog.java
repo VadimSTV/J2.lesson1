@@ -9,10 +9,10 @@ public class Dog extends Animal {
 
     @Override
     public void voice() {
-        System.out.println("Гав-гав ррррр");
+        System.out.println("Гав-гав ррррр");  //Вывод голоса собаки
     }
 
     public void swim() {
-        System.out.println(getName() + " плывет");
+        System.out.println(getName() + " плывет");  
     }
 }

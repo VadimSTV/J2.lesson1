@@ -59,7 +59,7 @@ public class Leo implements Participant {
         }
     }
 
-    // TODO переопределить toString() по аналогии с Animal
+    // TODO переопределить toString() 
     @Override
     public String toString() {
         return "Лев " + name + " : " + (isOnDistance() ? "на дистанции" : "сошел с дистанции");

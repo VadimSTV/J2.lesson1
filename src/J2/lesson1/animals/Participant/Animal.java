@@ -11,13 +11,13 @@ public abstract class Animal implements Participant {
     private int maxJumpHeight;
     private int maxSwimDistance;
 
-    public Animal(String name, int maxRunDistance,
+    public Animal(String name, int maxRunDistance,         
                   int maxJumpHeight, int maxSwimDistance) {
         this.name = name;
         this.maxRunDistance = maxRunDistance;
         this.maxJumpHeight = maxJumpHeight;
         this.maxSwimDistance = maxSwimDistance;
-        this.onDistance = true;
+        this.onDistance = true;         // Успешное прохождение препятсвий
     }
 
 
