@@ -1,8 +1,8 @@
 package J2.lesson1.animals.obstacles;
-
-
 import J2.lesson1.animals.Team;
 
+
+//Создание класса Курс с препятствиями
 public class Course {
     private Obstacle obstacles[];
 
