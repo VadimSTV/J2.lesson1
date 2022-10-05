@@ -1,6 +1,6 @@
 package J2.lesson1.animals.Participant;
 
-public interface Participant {
+public interface Participant {   // Создание интерфейса участников
 
     String getName();
 
