@@ -21,6 +21,7 @@ public class Application {
         team.getTeamInfo();
 
         c.doIt(team);               // Просим команду пройти полосу
+        //course.doIt(team);
         team.showResults();         // Показываем результаты
 
     }
